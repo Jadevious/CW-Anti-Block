@@ -1,0 +1,20 @@
+{
+    "name": "CW anti-block",
+    "description": "Simple extension that removes the cw adblock notice",
+    "version": "1.0",
+    "manifest_version": 3,    
+
+    "icons": {  
+        "16": "cw.png",
+        "48": "cw.png",
+        "128": "cw.png"
+    },
+
+    "permissions": ["scripting", "activeTab"],
+
+    "action": {},
+
+    "background": {
+        "service_worker": "background.js"
+    }
+}
